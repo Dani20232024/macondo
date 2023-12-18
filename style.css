@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2022/09/13/20/15/mountain-7452809_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color:rgb(174, 255, 0);
+    display: flex;
+    margin-left: 270px;
+    
+}
+
+
+.card:hover {
+   transform: scale(1.04);
+   transition: all 0.5s ease;
+}
+
+
+span {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 20ch;
+    font-size: 40px;
+    animation: typing 2s steps(12),blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
+
+@keyframes typing {
+
+    from { width: 0 }
+}
+
+@keyframes blink {
+    50% { border-color: transparent;}
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    width: 100px;
+}
